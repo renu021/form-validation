@@ -1,0 +1,60 @@
+.form-container {
+    margin: 10rem auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .log-input {
+    padding: 0.5rem 4rem;
+    border-radius: 5px;
+  }
+  
+  .logform-content {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    text-align: center;
+  }
+  
+  .logform-content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .singup-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .singup-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .log-btn span {
+    margin-left: 10px;
+  }
+  
+  /* Style validation error messages */
+  .log-input + p {
+    color: red;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  /* Style the submit button in case of errors */
+  .logform-content.has-errors .singup-btn {
+    background-color: #ff0000; /* Change to red */
+  }
+  
+  .logform-content.has-errors .singup-btn:hover {
+    background-color: #cc0000; /* Darker red on hover */
+  }
+  

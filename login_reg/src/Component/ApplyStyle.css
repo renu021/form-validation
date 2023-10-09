@@ -1,0 +1,60 @@
+
+
+.regform-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 10px;
+  }
+  
+  .reg-form {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+    text-align: center;
+  }
+  
+  .reg-text {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+
+
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+
+  
+  .reg-form-btn {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .reg-form-btn button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .reg-form-btn button:last-child {
+    background-color: #dc3545; 
+  }
+  
+  .reg-form-btn button:hover {
+    background-color: #0056b3;
+  }
+  
+  

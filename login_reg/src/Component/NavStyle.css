@@ -1,0 +1,53 @@
+.Nav-container{
+    display:flex;
+    justify-content: space-evenly;
+    background-color:#181818;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-image: url(../Assests/l.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-size: 2rem;
+}
+.logoText1{
+    color: #fff;
+    font-size: 900;
+    font-weight: bolder;
+}
+
+.logoText2{
+    color: #fff;
+    font-size: 900;
+    font-weight: bolder;
+}
+
+.menu-btn{
+    display:flex;
+    list-style: none;
+    
+}
+
+.btn{
+    margin-right: 20px;
+    font-size: 1.5rem;
+ 
+}
+
+
+.logo a{
+    text-decoration: none;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
